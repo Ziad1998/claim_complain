@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".forth">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+
+
+
+        app:cardUseCompatPadding="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#00BCD4"
+                android:gravity="center"
+
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:paddingTop="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="10dp"
+                    android:src="@drawable/voter"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Fill the form please"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="24sp" />
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="20dp"
+                android:rotation="45"
+                android:layout_marginTop="-10dp"
+                android:layout_below="@id/LinearLayout1"
+                android:layout_height="20dp"
+                android:src="@color/white"
+                android:layout_centerHorizontal="true"/>
+
+
+            <RelativeLayout
+                android:id="@+id/relat1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView1"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="25dp">
+
+                <ImageView
+                    android:id="@+id/location"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#00BCD4"
+                    android:padding="8dp"
+                    android:src="@drawable/placeholder"
+                    android:tint="@color/white" />
+
+                <TextView
+                    android:id="@+id/textlocationn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/location"
+                    android:layout_alignBottom="@id/location"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@id/location"
+                    android:background="@color/editTextBG"
+                    android:clickable="false"
+
+
+                    android:paddingLeft="20dp"
+
+
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/locationbutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/remember"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="0dp"
+                    android:background="#00BCD4"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="GET LOCATION"
+                    android:textColor="@color/white" />
+                <Button
+                    android:id="@+id/uploadimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imagevieww"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="0dp"
+                    android:background="#00BCD4"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Choose Image"
+                    android:textColor="@color/white" />
+
+
+                <ImageView
+                    android:id="@+id/imagevieww"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+
+                    android:layout_below="@+id/locationbutton"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="0dp"
+                    />
+                <EditText
+                    android:id="@+id/editpic"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+
+                    android:layout_below="@+id/imagevieww"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginRight="0dp"
+                    android:hint="Description of the complain"
+                    android:textColor="@color/white"
+                    android:background="@color/editTextBG"
+                    />
+                <Button
+                    android:id="@+id/buttonsave"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+
+                    android:layout_below="@+id/uploadimage"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="130dp"
+                    android:layout_marginRight="0dp"
+                    android:textColor="@color/white"
+                    android:text="SEND COMPLAIN"
+                    android:textSize="30dp"
+                    android:background="#00BCD4"
+                    />
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>

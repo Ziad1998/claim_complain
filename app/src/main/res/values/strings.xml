@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="navigation_drawer_items_array">
+        <item>Login</item>
+        <item>Register</item>
+        <item>Help</item>
+    </string-array>
+</resources>

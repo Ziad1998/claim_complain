@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".replyc" />
+        <activity android:name=".Detailedc2" />
+        <activity android:name=".Detailedc" />
+        <activity android:name=".Admin_pagec" />
+        <activity android:name=".feedbackc" />
+        <activity android:name=".forthc" />
+        <activity android:name=".thirdc" />
+        <activity android:name=".secondc" />
+        <activity android:name=".firstc" />
+        <activity android:name=".MakeClaim" />
+        <activity android:name=".CC" />
+        <activity android:name=".RegisterC" />
+        <activity android:name=".LoginC" />
+        <activity android:name=".Claimhome" />
+        <activity android:name=".Detailed2" />
+        <activity android:name=".reply" />
+        <activity android:name=".Detailed" />
+        <activity android:name=".Cardddd" />
+        <activity android:name=".Admin_page" />
+        <activity android:name=".feedback" />
+        <activity android:name=".register" />
+        <activity android:name=".sixth" />
+        <activity android:name=".fifth" />
+        <activity android:name=".forth" />
+        <activity android:name=".third" />
+        <activity android:name=".second" />
+        <activity android:name=".first" />
+        <activity android:name=".Afterlogin" />
+        <activity android:name=".about" />
+        <activity android:name=".login" />
+        <activity android:name=".cl" />
+        <activity android:name=".c" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
